@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".VetEditFAQ">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".VetEditFAQ">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:background="@drawable/logo"
+            android:layout_marginTop="10dp"
+            android:paddingVertical="100dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Edit FAQ For A Dog"
+            android:layout_gravity="center"
+            android:textSize="15dp"/>
+
+        <Button
+            android:text="Why does the dog not eat his food?"
+            android:layout_width="240dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:backgroundTint="#599346"
+            android:textColor="@color/white"
+            android:id="@+id/btnDogEatEdit"
+            android:textSize="11sp"
+            />
+
+        <Button
+            android:text="How to treat burns on the feet?"
+            android:layout_width="240dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:backgroundTint="#599346"
+            android:id="@+id/btnDogBurnEdit"
+            android:textSize="11sp"
+            />
+        <Button
+            android:text="What are the procedures when a dog bites a person?"
+            android:layout_width="240dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:backgroundTint="#599346"
+            android:id="@+id/btnDogBitEdit"
+            android:textSize="11sp"
+            />
+
+        <Button
+            android:text="What veterinary treatments does a puppy?"
+            android:layout_width="240dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:backgroundTint="#599346"
+            android:id="@+id/btnDogTreatmentsEdit"
+            android:textSize="11sp"
+            />
+
+        <Button
+            android:text="Should I neuter my dog?"
+            android:layout_width="240dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:backgroundTint="#599346"
+            android:id="@+id/btnDogNeuteringEdit"
+            android:textSize="11sp"
+            />
+        <Button
+            android:text="What are the benefits of dog training?"
+            android:layout_width="240dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:backgroundTint="#599346"
+            android:id="@+id/btnDogTrainEdit"
+            android:textSize="11sp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="5dp"
+            android:layout_marginTop="10dp"
+            android:text="Edit Faq For A Cat"
+            android:textSize="15dp" />
+
+        <Button
+            android:text="Should cats be vaccinated?"
+            android:layout_width="240dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:backgroundTint="#3E9168"
+            android:textColor="@color/white"
+            android:id="@+id/btnCatVaccineEdit"
+            android:textSize="11sp"
+            />
+
+        <Button
+            android:text="Is it allowed to bathe cats?"
+            android:layout_width="240dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:backgroundTint="#3E9168"
+            android:id="@+id/btnCatWashEdit"
+            android:textSize="11sp"
+            />
+        <Button
+            android:text="What is cat scratch disease?"
+            android:layout_width="240dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:backgroundTint="#3E9168"
+            android:id="@+id/btnCatMarchEdit"
+            android:textSize="11sp"
+            />
+
+        <Button
+            android:id="@+id/btnCatEatEdit"
+            android:layout_width="240dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:backgroundTint="#3E9168"
+            android:text="How many times a day should a cat eat?"
+            android:textSize="11sp" />
+
+        <Button
+            android:text="Should kittens be given milk?"
+            android:layout_width="240dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:backgroundTint="#3E9168"
+            android:id="@+id/btnCatMilkEdit"
+            android:textSize="11sp"
+            />
+        <Button
+            android:text="Why does my cat not defecate in the sandbox?"
+            android:layout_width="240dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:backgroundTint="#3E9168"
+            android:id="@+id/btnCatPoopEdit"
+            android:textSize="11sp"
+            />
+    </LinearLayout>
+</ScrollView>

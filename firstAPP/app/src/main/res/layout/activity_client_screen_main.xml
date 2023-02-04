@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ClientScreenMain">
+
+
+        <TextView
+            android:id="@+id/welcomeClient"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="6dp"
+            android:text="Welcome: "
+            android:textSize="30dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <Button
+            android:id="@+id/btn_Add"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="5dp"
+            android:layout_gravity="center"
+            android:background="@android:color/black"
+            android:text="Add your animal" />
+        <Button
+            android:id="@+id/btn_Health"
+            android:layout_marginTop="10dp"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:layout_gravity="center"
+            android:text="Health Life Tips"
+            android:background="@android:color/black"/>
+        <Button
+            android:id="@+id/btn_FAQ"
+            android:layout_marginTop="10dp"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:layout_gravity="center"
+            android:text="FAQ"
+            android:background="@android:color/black"/>
+
+        <Button
+            android:id="@+id/btn_NFWell"
+            android:layout_marginTop="10dp"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:layout_gravity="center"
+            android:text="Not Felling Well"
+            android:background="@android:color/black"/>
+
+        <Button
+            android:id="@+id/btn_NFWellAnswer"
+            android:layout_marginTop="10dp"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginRight="5dp"
+            android:text="Answer - NFW"
+            android:background="@android:color/black"/>
+
+        <Button
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:text="INFORMATION"
+            android:background="@android:color/black"
+            android:id="@+id/btn_Info"
+            />
+        <Button
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:text="Vet List"
+            android:background="@android:color/black"
+            android:id="@+id/btn_VetList"
+            />
+        <Button
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp"
+            android:text="Open Wound"
+            android:layout_gravity="center"
+            android:background="@android:color/black"
+            android:id="@+id/btn_OpenWound"
+            />
+        <Button
+            android:id="@+id/btn_OWAnswer"
+            android:layout_marginTop="10dp"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginRight="5dp"
+            android:text="Answer - OW"
+            android:background="@android:color/black"/>
+        <Button
+            android:id="@+id/btnLogOutClient"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="#A61717"
+            android:text="Log Out"
+            android:textSize="15dp"
+            />
+
+
+</LinearLayout>

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".adminScreen">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="6dp"
+                android:text="      Welcome To "
+                android:layout_gravity="center"
+                android:textSize="30dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"/>
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:background="@drawable/logo"
+                android:paddingVertical="100dp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/TVWellcome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="6dp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:text="Welcome Admin "
+            android:textSize="16dp"
+            />
+
+        <Button
+            android:text="Vet list"
+            android:layout_width="240dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="#5A5656"
+            android:textColor="@color/white"
+            android:id="@+id/btnVets"
+            android:textSize="12sp"
+            />
+
+        <Button
+            android:text="Client list"
+            android:layout_width="240dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:backgroundTint="#5A5656"
+            android:id="@+id/btnUsers"
+            android:textSize="12sp"
+            />
+        <Button
+            android:text="Vet Profiles"
+            android:layout_width="240dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:backgroundTint="#5A5656"
+            android:id="@+id/btnVetProfile"
+            android:textSize="12sp"
+            />
+
+        <Button
+            android:text="Edit Faq"
+            android:layout_width="240dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:backgroundTint="#5A5656"
+            android:id="@+id/btnEditQAadmin"
+            android:textSize="12sp"
+            />
+
+        <Button
+            android:text="Edit - Health Life Tips"
+            android:layout_width="240dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:backgroundTint="#5A5656"
+            android:id="@+id/btnHealthEdit"
+            android:textSize="12sp"
+            />
+        <Button
+            android:text="Approve new Vets"
+            android:layout_width="240dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:backgroundTint="#5A5656"
+            android:id="@+id/btnNewVets"
+            android:textSize="12sp"
+            />
+
+        <Button
+            android:text="Add Advertising"
+            android:layout_width="240dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:backgroundTint="#5A5656"
+            android:id="@+id/btnAddP"
+            android:textSize="12sp"
+            />
+
+        <Button
+            android:text="Send Notification"
+            android:layout_width="240dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:backgroundTint="#5A5656"
+            android:id="@+id/btnPush"
+            android:textSize="12sp"
+            />
+
+        <Button
+            android:id="@+id/btnLogOutAdmin"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="#A61717"
+            android:text="Log Out"
+            android:textSize="15dp" />
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>
+

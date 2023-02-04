@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".openWound">
+
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:background="@drawable/logo"
+        android:paddingVertical="100dp" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="205dp"
+            android:layout_height="160dp"
+            android:layout_gravity="center"
+            android:background="@drawable/dogg"
+            android:paddingVertical="100dp"
+            android:id="@+id/dogAn"
+            />
+        <ImageView
+            android:layout_width="205dp"
+            android:layout_height="160dp"
+            android:layout_gravity="center"
+            android:background="@drawable/catt"
+            android:paddingVertical="100dp"
+            android:id="@+id/catAn"
+            />
+    </LinearLayout>
+
+
+
+
+    <EditText
+        android:layout_marginTop="20dp"
+        android:id="@+id/EDITsubOW"
+        android:layout_width="240dp"
+        android:layout_height="50dp"
+        android:hint="נושא הפניה "
+        android:layout_gravity="right"
+        android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/editBodyOW"
+            android:layout_width="340dp"
+            android:layout_height="200dp"
+            android:layout_gravity="right"
+            android:hint="גוף הפניה "
+            android:textSize="20sp" />
+
+        <ImageView
+            android:id="@+id/iv1"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"/>
+
+
+    <Button
+        android:id="@+id/saveOW"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="send"
+        android:textSize="15dp" />
+
+
+</LinearLayout>

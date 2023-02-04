@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".HealthLifeTips">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="טיפים לאורח חיים בריא"
+            android:layout_gravity="center"
+            android:textSize="20sp"
+            android:textColor="#38AA3D"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="טיילו עם הכלב שלכם"
+            android:textSize="14sp"
+            android:layout_marginTop="20dp"
+            android:textColor="#000000"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="10sp"
+            android:layout_gravity="center"
+            android:text="בין אם לוח הזמנים שלכם מאפשר את זה מדי יום או רק פעם או פעמיים בשבוע, הליכה עם הכלב שלכם יכולה לספק מספר יתרונות עבור שניכם.
+    מלבד גורם הפעילות הפיזית הברור, זה יכול לחזק את הקשר בין חיית המחמד / הבעלים, וכתוצאה מכך להפוך את הכלב שלכם למאושר יותר.
+    הליכה עם הכלב שלכם באופן קבוע יכולה גם למנוע כל התנהגות הרסנית הנובעת משעמום כאשר הוא לבד בבית.
+    אם אין באפשרותכם לטייל עימו כל יום, שכרו שירותי דוג-ווקינג, וודאו כי הכלב שלכם יוצא לטיול פעמיים- שלוש ביום"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="תנו לחתול שלכם משטח רביצה ליד החלון"
+            android:textSize="14sp"
+            android:layout_marginTop="20dp"
+            android:textColor="#000000"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="10sp"
+            android:layout_gravity="center"
+            android:text="חתולים הם סקרנים מטבעם ורבים מהם אוהבים לצפות בציפורים, בחתולים אחרים ובעוד התרחשויות אותן הם יכולים לראות דרך החלון.
+    גם אם זה סתם לבהות דרכו. אתה יכול להרוות את הסקרנות של חיית המחמד שלכם ולשמור אותם עסוקים, על ידי התקנת משטח רביצה ליד החלון.
+    רק היו בטוחים כי החלון והמשטח מאובטחים, כדי למנוע פגיעה."
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="טפחו את חיית המחמד שלכם"
+            android:layout_marginTop="20dp"
+            android:textSize="14sp"
+            android:textColor="#000000"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="10sp"
+            android:layout_gravity="center"
+            android:text="טיפול בחיות הוא גם דאגה לטיפוחן. טיפוח חיות המחמד שלכם לא רק ששומר על העור והפרווה שלהם בריאים, אלא גם הוא יכול לחזק את הקשר שבין חיית המחמד לבעלים.
+    למעשה, חיות מחמד רבות נהנות להיות מטופחות. הטיפוח יכול גם להפחית נשירה, אם הוא נעשה באופן קבוע.
+    אם חיית המחמד שלכם זקוקה לטיפוח מקצועי יותר, קבעו תור אצל ספר מקצועי, מרפאה וטרינרית, או בכל מקום אחר בו מספקים שירותי מספרה וטיפוח"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:id="@+id/tvDisplay"
+            android:textColor="#000000"
+            android:text=""
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="10sp"
+            android:layout_gravity="center"
+            android:id="@+id/tvDisplay2"
+            android:text=""
+            />
+
+    </LinearLayout>
+</ScrollView>

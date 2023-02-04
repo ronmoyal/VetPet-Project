@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditHealthLifeTips">
+
+    <EditText
+        android:id="@+id/etTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Subject" />
+    <EditText
+        android:id="@+id/etTip"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="top"
+        android:hint="Content" />
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="100dp"
+        android:background="#c1112e"
+
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:text="save" />
+
+
+</LinearLayout>

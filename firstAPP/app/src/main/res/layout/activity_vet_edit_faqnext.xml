@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".VetEditFAQnext">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:background="@drawable/logo"
+        android:layout_marginTop="10dp"
+        android:paddingVertical="100dp" />
+
+    <EditText
+        android:id="@+id/editNewQuestion"
+        android:layout_width="340dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="15dp"
+        android:hint="Write New Question"
+        android:layout_gravity="left"
+        android:textSize="20sp" />
+
+    <EditText
+        android:hint="Write New Answer"
+        android:layout_gravity="left"
+        android:layout_width="340dp"
+        android:layout_height="300dp"
+        android:id="@+id/editNewAnswer"
+        android:textSize="20sp"
+        />
+    <Button
+        android:id="@+id/btnSendNewQA"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Sumbit request"
+        android:textSize="15dp" />
+
+
+
+
+</LinearLayout>

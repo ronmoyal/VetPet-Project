@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Tap Long On Vet For More option"
+        android:textColor="#037008"
+        android:textSize="15dp"/>
+
+
+    <TextView
+        android:id="@+id/tvEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="full_name"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/tvSeniorYears"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Seniority Years"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/tvClinicLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Clinic Location"
+        android:textSize="18sp"/>
+
+
+
+
+
+</LinearLayout>

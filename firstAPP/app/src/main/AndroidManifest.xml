@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.myfirstapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyFirstApp">
+        <activity
+            android:name=".ImageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ApproveNewVet"
+            android:exported="false" />
+        <activity
+            android:name=".AddPirsomet"
+            android:exported="false" />
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-3183062838414181~8371106194" />
+
+        <activity
+            android:name=".VetStockManager"
+            android:exported="false" />
+        <activity
+            android:name=".UserPostActivityOW"
+            android:exported="false" />
+        <activity
+            android:name=".EditPostActivityOW"
+            android:exported="false" />
+        <activity
+            android:name=".AllPostActivityOW"
+            android:exported="false" />
+        <activity
+            android:name=".openWound"
+            android:exported="false" />
+        <activity
+            android:name=".VetEditProfile"
+            android:exported="false" />
+        <activity
+            android:name=".EditHealthLifeTips"
+            android:exported="false" />
+        <activity
+            android:name=".postManagerTips"
+            android:exported="false"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".HealthLifeEditManager"
+            android:exported="false" />
+        <activity
+            android:name=".AllHealthLifeTipsAdapter"
+            android:exported="false"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".AllHealthLifeTips"
+            android:exported="false" />
+        <activity
+            android:name=".UserList"
+            android:exported="false" />
+        <activity
+            android:name=".AdminEditFAQ"
+            android:exported="false" />
+        <activity
+            android:name=".VetData_User"
+            android:exported="false" />
+        <activity
+            android:name=".HealthLifeTipsEdit"
+            android:exported="false" />
+        <activity
+            android:name=".VetEditFAQnext"
+            android:exported="false" />
+        <activity
+            android:name=".VetEditFAQ"
+            android:exported="false" />
+        <activity
+            android:name=".RetreiveDataActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Information"
+            android:exported="false" />
+        <activity
+            android:name=".PushNotifications"
+            android:exported="false" />
+        <activity
+            android:name=".adminScreen"
+            android:exported="false" />
+        <activity
+            android:name=".Admin_Login"
+            android:exported="false" />
+        <activity
+            android:name=".Contact_us"
+            android:exported="false" />
+        <activity
+            android:name=".UserPostActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EditPostActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AllPostActivity"
+            android:exported="false" />
+        <activity
+            android:name=".notFeelingWell"
+            android:exported="false" />
+        <activity
+            android:name=".FAQUser"
+            android:exported="false" />
+        <activity
+            android:name=".HealthLifeTips"
+            android:exported="false" />
+        <activity
+            android:name=".ClientScreenMain"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivityVet"
+            android:exported="false" />
+        <activity
+            android:name=".VetScreen"
+            android:exported="false" />
+        <activity
+            android:name=".AddAnimal"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RegClientActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RegVetActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name=".FirebaseMessagingService"
+            android:exported="true"
+            android:permission="TODO"
+            tools:ignore="ExportedService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+    </application>
+
+</manifest>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".EditPostActivityOW">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:background="@drawable/logo"
+        android:paddingVertical="100dp" />
+
+    <EditText
+        android:id="@+id/etTitleOW"
+        android:layout_width="240dp"
+        android:layout_height="50dp"
+        android:hint="נושא הפניה"
+        android:layout_gravity="right"
+        android:textSize="20sp" />
+
+    <EditText
+        android:hint="גוף הפניה "
+        android:layout_gravity="right"
+        android:layout_width="340dp"
+        android:layout_height="200dp"
+        android:id="@+id/etBodyOW"
+        android:textSize="20sp"
+        />
+    <ImageView
+        android:id="@+id/iv1Ans"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/btnSaveOW"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="send"
+        android:textSize="15dp" />
+
+
+
+
+</LinearLayout>
